@@ -1,0 +1,9 @@
+# MSPP glitch tester input: NO CHIP
+# rules: S55
+# watch: no Chip on the map: Chip appears at (0,0)
+set GLITCHTEST.DAT
+level 65
+ticks 20
+seed 0
+start shift
+# "n: keys" = after n ticks have run, press these keys (N S W E, or Cdx,dy = click the square at that offset from Chip)

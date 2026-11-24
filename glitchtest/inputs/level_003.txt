@@ -1,0 +1,10 @@
+# MSPP glitch tester input: SL TELE
+# rules: S62
+# watch: block and ball slide through teleports and keep sliding
+set GLITCHTEST.DAT
+level 3
+ticks 40
+seed 0
+start shift
+# "n: keys" = after n ticks have run, press these keys (N S W E, or Cdx,dy = click the square at that offset from Chip)
+0: E

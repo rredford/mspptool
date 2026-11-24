@@ -1,0 +1,10 @@
+# MSPP glitch tester input: DR N EDGE BURIED
+# rules: S35 S36
+# watch: data resetting: red button wired to a buried north clone block at the edge
+set GLITCHTEST.DAT
+level 70
+ticks 40
+seed 0
+start shift
+# "n: keys" = after n ticks have run, press these keys (N S W E, or Cdx,dy = click the square at that offset from Chip)
+0: E

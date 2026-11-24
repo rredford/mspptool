@@ -1,0 +1,16 @@
+# MSPP glitch tester input: SUMMON FLIPPERS
+# rules: S100
+# watch: time limit 104 (0x68) buried under the socket: Chip summons flippers, picks them up and crosses water to the exit
+set GLITCHTEST.DAT
+level 131
+ticks 40
+seed 0
+start shift
+# "n: keys" = after n ticks have run, press these keys (N S W E, or Cdx,dy = click the square at that offset from Chip)
+8: E
+12: E
+16: W
+20: E
+22: E
+24: E
+26: E

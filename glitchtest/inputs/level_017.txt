@@ -1,0 +1,10 @@
+# MSPP glitch tester input: BUR TELEPORT
+# rules: S76
+# watch: teleport exit onto a buried clone machine counts as blocked
+set GLITCHTEST.DAT
+level 17
+ticks 24
+seed 0
+start shift
+# "n: keys" = after n ticks have run, press these keys (N S W E, or Cdx,dy = click the square at that offset from Chip)
+0: E

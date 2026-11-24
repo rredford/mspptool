@@ -1,0 +1,11 @@
+# MSPP glitch tester input: SL LOOP
+# rules: S10
+# watch: force floor: N before tick 2 steps off at once
+set GLITCHTEST.DAT
+level 5
+ticks 20
+seed 0
+start shift
+# "n: keys" = after n ticks have run, press these keys (N S W E, or Cdx,dy = click the square at that offset from Chip)
+0: E
+1: N

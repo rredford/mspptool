@@ -1,0 +1,13 @@
+# MSPP glitch tester input: SL DIE
+# rules: S61
+# watch: sliders dying in water and a bomb stop that tick
+set GLITCHTEST.DAT
+level 2
+ticks 40
+seed 0
+start shift
+# "n: keys" = after n ticks have run, press these keys (N S W E, or Cdx,dy = click the square at that offset from Chip)
+0: E
+6: S
+8: S
+10: E

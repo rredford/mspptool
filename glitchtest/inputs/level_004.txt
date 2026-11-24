@@ -1,0 +1,10 @@
+# MSPP glitch tester input: SL HEADON
+# rules: S9
+# watch: sliding ball and block meet head-on on ice
+set GLITCHTEST.DAT
+level 4
+ticks 40
+seed 0
+start shift
+# "n: keys" = after n ticks have run, press these keys (N S W E, or Cdx,dy = click the square at that offset from Chip)
+0: W

@@ -1,0 +1,10 @@
+# MSPP glitch tester input: M2 1
+# rules: C22
+# watch: click on an ice square: Chip touches it mid-slide, slides on to (3,0) and stays
+set GLITCHTEST.DAT
+level 125
+ticks 20
+seed 0
+start shift
+# "n: keys" = after n ticks have run, press these keys (N S W E, or Cdx,dy = click the square at that offset from Chip)
+1: C2,0

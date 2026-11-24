@@ -1,0 +1,10 @@
+# MSPP glitch tester input: S86B 1
+# rules: S86
+# watch: trapped bug first in the list: never leaves
+set GLITCHTEST.DAT
+level 42
+ticks 30
+seed 0
+start shift
+# "n: keys" = after n ticks have run, press these keys (N S W E, or Cdx,dy = click the square at that offset from Chip)
+0: N

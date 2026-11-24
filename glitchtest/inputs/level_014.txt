@@ -1,0 +1,10 @@
+# MSPP glitch tester input: Q13 FACE E
+# rules: S66 S13
+# watch: trapped teeth facing E
+set GLITCHTEST.DAT
+level 14
+ticks 24
+seed 0
+start shift
+# "n: keys" = after n ticks have run, press these keys (N S W E, or Cdx,dy = click the square at that offset from Chip)
+3: N

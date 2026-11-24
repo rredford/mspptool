@@ -1,0 +1,10 @@
+# MSPP glitch tester input: RFF BLOCK
+# rules: Q17
+# watch: block pushed off a random force floor (seed 0)
+set GLITCHTEST.DAT
+level 46
+ticks 10
+seed 0
+start shift
+# "n: keys" = after n ticks have run, press these keys (N S W E, or Cdx,dy = click the square at that offset from Chip)
+0: E

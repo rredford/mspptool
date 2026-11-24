@@ -1,0 +1,9 @@
+# MSPP glitch tester input: CE nor 0
+# rules: S71 S86
+# watch: bug copies wait for the reference direction
+set GLITCHTEST.DAT
+level 50
+ticks 60
+seed 0
+start shift
+# "n: keys" = after n ticks have run, press these keys (N S W E, or Cdx,dy = click the square at that offset from Chip)

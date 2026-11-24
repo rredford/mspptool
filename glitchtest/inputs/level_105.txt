@@ -1,0 +1,14 @@
+# MSPP glitch tester input: SL ice E 24 True
+# rules: S97
+# watch: slide direction reset on ice: Chip frozen for good, keys ignored
+set GLITCHTEST.DAT
+level 105
+ticks 40
+seed 0
+start shift
+# "n: keys" = after n ticks have run, press these keys (N S W E, or Cdx,dy = click the square at that offset from Chip)
+0: E
+12: E
+16: W
+20: N
+24: S

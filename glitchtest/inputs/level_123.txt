@@ -1,0 +1,10 @@
+# MSPP glitch tester input: M2 2
+# rules: C22
+# watch: click (3,0) with a block E: pushes it along
+set GLITCHTEST.DAT
+level 123
+ticks 20
+seed 0
+start shift
+# "n: keys" = after n ticks have run, press these keys (N S W E, or Cdx,dy = click the square at that offset from Chip)
+1: C3,0

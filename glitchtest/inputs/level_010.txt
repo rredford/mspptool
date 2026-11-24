@@ -1,0 +1,11 @@
+# MSPP glitch tester input: ICE BOUNCE STEP BACK
+# rules: S63
+# watch: same, Chip steps back: block stops on floor, Chip lives
+set GLITCHTEST.DAT
+level 10
+ticks 30
+seed 0
+start shift
+# "n: keys" = after n ticks have run, press these keys (N S W E, or Cdx,dy = click the square at that offset from Chip)
+0: E
+4: W

@@ -1,0 +1,10 @@
+# MSPP glitch tester input: BOSS BALL WE AFTER
+# rules: S13
+# watch: boss controller layout 6
+set GLITCHTEST.DAT
+level 61
+ticks 20
+seed 0
+start shift
+# "n: keys" = after n ticks have run, press these keys (N S W E, or Cdx,dy = click the square at that offset from Chip)
+0: S

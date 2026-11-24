@@ -1,0 +1,11 @@
+# MSPP glitch tester input: HELD N 14 True
+# rules: S96
+# watch: held-key flag reset: the remembered move is cancelled
+set GLITCHTEST.DAT
+level 102
+ticks 16
+seed 0
+start shift
+# "n: keys" = after n ticks have run, press these keys (N S W E, or Cdx,dy = click the square at that offset from Chip)
+6: N
+7: N

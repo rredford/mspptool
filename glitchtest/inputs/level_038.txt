@@ -1,0 +1,10 @@
+# MSPP glitch tester input: S86D 2
+# rules: S86
+# watch: reference = blocked tank's try (S)
+set GLITCHTEST.DAT
+level 38
+ticks 20
+seed 0
+start shift
+# "n: keys" = after n ticks have run, press these keys (N S W E, or Cdx,dy = click the square at that offset from Chip)
+0: N

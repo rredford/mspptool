@@ -1,0 +1,14 @@
+# MSPP glitch tester input: AUT2 water 7 True
+# rules: S90
+# watch: death-cause reset on the next tick does not save Chip (water)
+set GLITCHTEST.DAT
+level 95
+ticks 20
+seed 0
+start shift
+# "n: keys" = after n ticks have run, press these keys (N S W E, or Cdx,dy = click the square at that offset from Chip)
+0: E
+2: E
+7: E
+9: E
+11: E

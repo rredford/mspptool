@@ -1,0 +1,9 @@
+# MSPP glitch tester input: RING BALL
+# rules: S64
+# watch: ball circles a force ring, facing follows the floor
+set GLITCHTEST.DAT
+level 8
+ticks 30
+seed 0
+start shift
+# "n: keys" = after n ticks have run, press these keys (N S W E, or Cdx,dy = click the square at that offset from Chip)

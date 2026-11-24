@@ -1,0 +1,10 @@
+# MSPP glitch tester input: COLL CHIP VS BALL
+# rules: S58
+# watch: Chip and a ball aim at the same square
+set GLITCHTEST.DAT
+level 87
+ticks 12
+seed 0
+start shift
+# "n: keys" = after n ticks have run, press these keys (N S W E, or Cdx,dy = click the square at that offset from Chip)
+0: N

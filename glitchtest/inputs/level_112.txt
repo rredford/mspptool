@@ -1,0 +1,9 @@
+# MSPP glitch tester input: TRAPPED BLOB DRAWS
+# rules: S12d
+# watch: blob held in an unwired trap, listed first, keeps drawing: the free blob first moves W to (12,13)
+set GLITCHTEST.DAT
+level 112
+ticks 60
+seed 0
+start shift
+# "n: keys" = after n ticks have run, press these keys (N S W E, or Cdx,dy = click the square at that offset from Chip)

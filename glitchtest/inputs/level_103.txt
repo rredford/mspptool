@@ -1,0 +1,11 @@
+# MSPP glitch tester input: HELD E 18 True
+# rules: S96
+# watch: held-key x direction reset to 0: the remembered move does nothing
+set GLITCHTEST.DAT
+level 103
+ticks 16
+seed 0
+start shift
+# "n: keys" = after n ticks have run, press these keys (N S W E, or Cdx,dy = click the square at that offset from Chip)
+6: E
+7: E

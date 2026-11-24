@@ -1,0 +1,9 @@
+# MSPP glitch tester input: DRS 49
+# rules: S98
+# watch: west ball buried at (4,0): nothing
+set GLITCHTEST.DAT
+level 110
+ticks 30
+seed 0
+start shift
+# "n: keys" = after n ticks have run, press these keys (N S W E, or Cdx,dy = click the square at that offset from Chip)

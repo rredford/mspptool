@@ -1,0 +1,4 @@
+mspptool.exe (32-bit Windows, mingw):
+  i686-w64-mingw32-gcc -O2 -mwindows -o mspptool.exe mspptool.c -lcomdlg32 -lgdi32
+DATATAP.EXE (16-bit Windows, OpenWatcom):
+  wcl -bt=windows -l=windows datatap.c   (Win16 target; uses TOOLHELP)

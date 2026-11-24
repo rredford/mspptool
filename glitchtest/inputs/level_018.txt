@@ -1,0 +1,10 @@
+# MSPP glitch tester input: BUR CLONER OUT
+# rules: S76
+# watch: clone machine whose copy would land on a buried one: no copy
+set GLITCHTEST.DAT
+level 18
+ticks 24
+seed 0
+start shift
+# "n: keys" = after n ticks have run, press these keys (N S W E, or Cdx,dy = click the square at that offset from Chip)
+0: E

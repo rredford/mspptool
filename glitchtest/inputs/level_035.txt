@@ -1,0 +1,10 @@
+# MSPP glitch tester input: KB 64 6C
+# rules: S79
+# watch: key on a Chip tile: blocks Chip, nothing breaks
+set GLITCHTEST.DAT
+level 35
+ticks 8
+seed 0
+start shift
+# "n: keys" = after n ticks have run, press these keys (N S W E, or Cdx,dy = click the square at that offset from Chip)
+0: E

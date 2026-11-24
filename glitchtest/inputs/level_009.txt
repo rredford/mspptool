@@ -1,0 +1,10 @@
+# MSPP glitch tester input: ICE BOUNCE STAND
+# rules: S63
+# watch: block bounces off the end of an ice lane and kills standing Chip
+set GLITCHTEST.DAT
+level 9
+ticks 30
+seed 0
+start shift
+# "n: keys" = after n ticks have run, press these keys (N S W E, or Cdx,dy = click the square at that offset from Chip)
+0: E

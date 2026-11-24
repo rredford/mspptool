@@ -1,0 +1,10 @@
+# MSPP glitch tester input: V49 4 {'time': 49}
+# rules: S89
+# watch: data value 49 acts as a clone machine: block at (4,31), value kept
+set GLITCHTEST.DAT
+level 92
+ticks 80
+seed 0
+start shift
+# "n: keys" = after n ticks have run, press these keys (N S W E, or Cdx,dy = click the square at that offset from Chip)
+0: W

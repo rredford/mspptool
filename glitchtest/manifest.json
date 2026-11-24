@@ -1,0 +1,2149 @@
+{
+ "pack": "GLITCHTEST.DAT",
+ "levels": [
+  {
+   "level": 1,
+   "title": "SL MANY",
+   "source": "SLIDE.DAT #1",
+   "keys": {
+    "0": [
+     "N"
+    ]
+   },
+   "ticks": 40,
+   "rules": "S61",
+   "watch": "24 balls sliding at once on an ice rink"
+  },
+  {
+   "level": 2,
+   "title": "SL DIE",
+   "source": "SLIDE.DAT #2",
+   "keys": {
+    "0": [
+     "E"
+    ],
+    "6": [
+     "S"
+    ],
+    "8": [
+     "S"
+    ],
+    "10": [
+     "E"
+    ]
+   },
+   "ticks": 40,
+   "rules": "S61",
+   "watch": "sliders dying in water and a bomb stop that tick"
+  },
+  {
+   "level": 3,
+   "title": "SL TELE",
+   "source": "SLIDE.DAT #4",
+   "keys": {
+    "0": [
+     "E"
+    ]
+   },
+   "ticks": 40,
+   "rules": "S62",
+   "watch": "block and ball slide through teleports and keep sliding"
+  },
+  {
+   "level": 4,
+   "title": "SL HEADON",
+   "source": "SLIDE.DAT #5",
+   "keys": {
+    "0": [
+     "W"
+    ]
+   },
+   "ticks": 40,
+   "rules": "S9",
+   "watch": "sliding ball and block meet head-on on ice"
+  },
+  {
+   "level": 5,
+   "title": "SL LOOP",
+   "source": "SLIDE.DAT #3",
+   "keys": {
+    "0": [
+     "E"
+    ],
+    "1": [
+     "N"
+    ]
+   },
+   "ticks": 20,
+   "rules": "S10",
+   "watch": "force floor: N before tick 2 steps off at once"
+  },
+  {
+   "level": 6,
+   "title": "SL LOOP",
+   "source": "SLIDE.DAT #3",
+   "keys": {
+    "0": [
+     "E"
+    ],
+    "1": [
+     "W"
+    ]
+   },
+   "ticks": 20,
+   "rules": "S10",
+   "watch": "force floor: W before tick 2 stalls"
+  },
+  {
+   "level": 7,
+   "title": "RING BLOCK",
+   "source": "SLIDES2.DAT #1",
+   "keys": {
+    "0": [
+     "E"
+    ]
+   },
+   "ticks": 30,
+   "rules": "S64",
+   "watch": "block circles a 4-floor force ring"
+  },
+  {
+   "level": 8,
+   "title": "RING BALL",
+   "source": "SLIDES2.DAT #2",
+   "keys": {},
+   "ticks": 30,
+   "rules": "S64",
+   "watch": "ball circles a force ring, facing follows the floor"
+  },
+  {
+   "level": 9,
+   "title": "ICE BOUNCE STAND",
+   "source": "SLIDES2.DAT #3",
+   "keys": {
+    "0": [
+     "E"
+    ]
+   },
+   "ticks": 30,
+   "rules": "S63",
+   "watch": "block bounces off the end of an ice lane and kills standing Chip"
+  },
+  {
+   "level": 10,
+   "title": "ICE BOUNCE STEP BACK",
+   "source": "SLIDES2.DAT #4",
+   "keys": {
+    "0": [
+     "E"
+    ],
+    "4": [
+     "W"
+    ]
+   },
+   "ticks": 30,
+   "rules": "S63",
+   "watch": "same, Chip steps back: block stops on floor, Chip lives"
+  },
+  {
+   "level": 11,
+   "title": "Q13 FACE N",
+   "source": "Q1113.DAT #3",
+   "keys": {
+    "3": [
+     "N"
+    ]
+   },
+   "ticks": 24,
+   "rules": "S66 S13",
+   "watch": "trapped teeth facing N released by the boss direction"
+  },
+  {
+   "level": 12,
+   "title": "Q13 FACE W",
+   "source": "Q1113.DAT #4",
+   "keys": {
+    "3": [
+     "N"
+    ]
+   },
+   "ticks": 24,
+   "rules": "S66 S13",
+   "watch": "trapped teeth facing W"
+  },
+  {
+   "level": 13,
+   "title": "Q13 FACE S",
+   "source": "Q1113.DAT #5",
+   "keys": {
+    "3": [
+     "N"
+    ]
+   },
+   "ticks": 24,
+   "rules": "S66 S13",
+   "watch": "trapped teeth facing S"
+  },
+  {
+   "level": 14,
+   "title": "Q13 FACE E",
+   "source": "Q1113.DAT #6",
+   "keys": {
+    "3": [
+     "N"
+    ]
+   },
+   "ticks": 24,
+   "rules": "S66 S13",
+   "watch": "trapped teeth facing E"
+  },
+  {
+   "level": 15,
+   "title": "BUR BLOCK ICE",
+   "source": "BURIED.DAT #1",
+   "keys": {
+    "0": [
+     "E"
+    ]
+   },
+   "ticks": 24,
+   "rules": "S76",
+   "watch": "block sliding on ice bounces off a buried clone machine"
+  },
+  {
+   "level": 16,
+   "title": "BUR CHIP ICE",
+   "source": "BURIED.DAT #2",
+   "keys": {
+    "0": [
+     "E"
+    ]
+   },
+   "ticks": 24,
+   "rules": "S76",
+   "watch": "Chip sliding on ice bounces off a buried clone machine"
+  },
+  {
+   "level": 17,
+   "title": "BUR TELEPORT",
+   "source": "BURIED.DAT #4",
+   "keys": {
+    "0": [
+     "E"
+    ]
+   },
+   "ticks": 24,
+   "rules": "S76",
+   "watch": "teleport exit onto a buried clone machine counts as blocked"
+  },
+  {
+   "level": 18,
+   "title": "BUR CLONER OUT",
+   "source": "BURIED.DAT #5",
+   "keys": {
+    "0": [
+     "E"
+    ]
+   },
+   "ticks": 24,
+   "rules": "S76",
+   "watch": "clone machine whose copy would land on a buried one: no copy"
+  },
+  {
+   "level": 19,
+   "title": "BUR CHIP ON CM",
+   "source": "BURIED.DAT #6",
+   "keys": {
+    "0": [
+     "E"
+    ],
+    "2": [
+     "E"
+    ],
+    "6": [
+     "W"
+    ],
+    "8": [
+     "W"
+    ],
+    "10": [
+     "W"
+    ]
+   },
+   "ticks": 24,
+   "rules": "S77",
+   "watch": "Chip leaves a clone machine: it surfaces, does nothing"
+  },
+  {
+   "level": 20,
+   "title": "BUR2 FORCE",
+   "source": "BURIED2.DAT #1",
+   "keys": {},
+   "ticks": 30,
+   "rules": "S76",
+   "watch": "ball carried by force floors stops before a buried clone machine"
+  },
+  {
+   "level": 21,
+   "title": "BUR2 ICE",
+   "source": "BURIED2.DAT #2",
+   "keys": {},
+   "ticks": 30,
+   "rules": "S76",
+   "watch": "ball sliding on ice bounces off a buried clone machine"
+  },
+  {
+   "level": 22,
+   "title": "IT 23 chip",
+   "source": "ITEMS.DAT #1",
+   "keys": {
+    "0": [
+     "E"
+    ]
+   },
+   "ticks": 20,
+   "rules": "S84",
+   "watch": "key over green button entered by Chip"
+  },
+  {
+   "level": 23,
+   "title": "IT 23 block",
+   "source": "ITEMS.DAT #2",
+   "keys": {
+    "0": [
+     "E"
+    ]
+   },
+   "ticks": 20,
+   "rules": "S84",
+   "watch": "key over green button entered by a pushed block"
+  },
+  {
+   "level": 24,
+   "title": "IT 23 ball",
+   "source": "ITEMS.DAT #3",
+   "keys": {},
+   "ticks": 20,
+   "rules": "S84",
+   "watch": "key over green button entered by a ball"
+  },
+  {
+   "level": 25,
+   "title": "IT 24 chip",
+   "source": "ITEMS.DAT #4",
+   "keys": {
+    "0": [
+     "E"
+    ]
+   },
+   "ticks": 20,
+   "rules": "S84",
+   "watch": "key over red button entered by Chip"
+  },
+  {
+   "level": 26,
+   "title": "IT 24 block",
+   "source": "ITEMS.DAT #5",
+   "keys": {
+    "0": [
+     "E"
+    ]
+   },
+   "ticks": 20,
+   "rules": "S84",
+   "watch": "key over red button entered by a pushed block"
+  },
+  {
+   "level": 27,
+   "title": "IT 24 ball",
+   "source": "ITEMS.DAT #6",
+   "keys": {},
+   "ticks": 20,
+   "rules": "S84",
+   "watch": "key over red button entered by a ball"
+  },
+  {
+   "level": 28,
+   "title": "IT 27 chip",
+   "source": "ITEMS.DAT #7",
+   "keys": {
+    "0": [
+     "E"
+    ]
+   },
+   "ticks": 20,
+   "rules": "S84",
+   "watch": "key over brown button entered by Chip"
+  },
+  {
+   "level": 29,
+   "title": "IT 27 block",
+   "source": "ITEMS.DAT #8",
+   "keys": {
+    "0": [
+     "E"
+    ]
+   },
+   "ticks": 20,
+   "rules": "S84",
+   "watch": "key over brown button entered by a pushed block"
+  },
+  {
+   "level": 30,
+   "title": "IT 27 ball",
+   "source": "ITEMS.DAT #9",
+   "keys": {},
+   "ticks": 20,
+   "rules": "S84",
+   "watch": "key over brown button entered by a ball"
+  },
+  {
+   "level": 31,
+   "title": "IT 28 chip",
+   "source": "ITEMS.DAT #10",
+   "keys": {
+    "0": [
+     "E"
+    ]
+   },
+   "ticks": 20,
+   "rules": "S84",
+   "watch": "key over blue button entered by Chip"
+  },
+  {
+   "level": 32,
+   "title": "IT 28 block",
+   "source": "ITEMS.DAT #11",
+   "keys": {
+    "0": [
+     "E"
+    ]
+   },
+   "ticks": 20,
+   "rules": "S84",
+   "watch": "key over blue button entered by a pushed block"
+  },
+  {
+   "level": 33,
+   "title": "IT 28 ball",
+   "source": "ITEMS.DAT #12",
+   "keys": {},
+   "ticks": 20,
+   "rules": "S84",
+   "watch": "key over blue button entered by a ball"
+  },
+  {
+   "level": 34,
+   "title": "KB 64 0A",
+   "source": "KEYBREAK.DAT #1",
+   "keys": {
+    "0": [
+     "E"
+    ]
+   },
+   "ticks": 8,
+   "rules": "S80",
+   "watch": "key on a block: stepping on it breaks the level"
+  },
+  {
+   "level": 35,
+   "title": "KB 64 6C",
+   "source": "KEYBREAK.DAT #6",
+   "keys": {
+    "0": [
+     "E"
+    ]
+   },
+   "ticks": 8,
+   "rules": "S79",
+   "watch": "key on a Chip tile: blocks Chip, nothing breaks"
+  },
+  {
+   "level": 36,
+   "title": "S86D 0",
+   "source": "S86D.DAT #1",
+   "keys": {
+    "0": [
+     "N"
+    ]
+   },
+   "ticks": 20,
+   "rules": "S86",
+   "watch": "reference = blocked ball's last try (S then N)"
+  },
+  {
+   "level": 37,
+   "title": "S86D 1",
+   "source": "S86D.DAT #2",
+   "keys": {
+    "0": [
+     "N"
+    ]
+   },
+   "ticks": 20,
+   "rules": "S86",
+   "watch": "reference = blocked ball's last try (E then W)"
+  },
+  {
+   "level": 38,
+   "title": "S86D 2",
+   "source": "S86D.DAT #3",
+   "keys": {
+    "0": [
+     "N"
+    ]
+   },
+   "ticks": 20,
+   "rules": "S86",
+   "watch": "reference = blocked tank's try (S)"
+  },
+  {
+   "level": 39,
+   "title": "S86D 3",
+   "source": "S86D.DAT #4",
+   "keys": {
+    "0": [
+     "N"
+    ]
+   },
+   "ticks": 20,
+   "rules": "S86",
+   "watch": "reference = blocked bug's last try (E)"
+  },
+  {
+   "level": 40,
+   "title": "S86D 4",
+   "source": "S86D.DAT #5",
+   "keys": {
+    "0": [
+     "N"
+    ]
+   },
+   "ticks": 20,
+   "rules": "S86",
+   "watch": "blocked teeth before the trapped bug"
+  },
+  {
+   "level": 41,
+   "title": "S86B 0",
+   "source": "S86B.DAT #1",
+   "keys": {
+    "0": [
+     "N"
+    ]
+   },
+   "ticks": 30,
+   "rules": "S86",
+   "watch": "trapped bug facing N, ball moving E before it: leaves E"
+  },
+  {
+   "level": 42,
+   "title": "S86B 1",
+   "source": "S86B.DAT #2",
+   "keys": {
+    "0": [
+     "N"
+    ]
+   },
+   "ticks": 30,
+   "rules": "S86",
+   "watch": "trapped bug first in the list: never leaves"
+  },
+  {
+   "level": 43,
+   "title": "S86B 14",
+   "source": "S86B.DAT #15",
+   "keys": {
+    "0": [
+     "N"
+    ]
+   },
+   "ticks": 30,
+   "rules": "S86",
+   "watch": "trapped paramecium facing E, ball before it"
+  },
+  {
+   "level": 44,
+   "title": "FORCE KEY",
+   "source": "FORCEKEY.DAT #1",
+   "keys": {
+    "0": [
+     "N"
+    ],
+    "3": [
+     "W"
+    ]
+   },
+   "ticks": 16,
+   "rules": "S67",
+   "watch": "key on a force floor acts at once"
+  },
+  {
+   "level": 45,
+   "title": "RFF CHIP",
+   "source": "RFFMAP.DAT #1",
+   "keys": {
+    "0": [
+     "E"
+    ]
+   },
+   "ticks": 10,
+   "rules": "Q17",
+   "watch": "Chip pushed off a random force floor (seed 0)"
+  },
+  {
+   "level": 46,
+   "title": "RFF BLOCK",
+   "source": "RFFMAP.DAT #2",
+   "keys": {
+    "0": [
+     "E"
+    ]
+   },
+   "ticks": 10,
+   "rules": "Q17",
+   "watch": "block pushed off a random force floor (seed 0)"
+  },
+  {
+   "level": 47,
+   "title": "CT clone 0",
+   "source": "CT_clone.DAT #1",
+   "keys": {},
+   "ticks": 40,
+   "rules": "S68 S69",
+   "watch": "clone machines holding tile codes 00-18 incl. clone blocks"
+  },
+  {
+   "level": 48,
+   "title": "CT clone 2",
+   "source": "CT_clone.DAT #3",
+   "keys": {},
+   "ticks": 40,
+   "rules": "S70 S71",
+   "watch": "clone machines holding creatures"
+  },
+  {
+   "level": 49,
+   "title": "CT trap 2",
+   "source": "CT_trap.DAT #3",
+   "keys": {},
+   "ticks": 40,
+   "rules": "S73",
+   "watch": "traps holding unlisted creatures"
+  },
+  {
+   "level": 50,
+   "title": "CE nor 0",
+   "source": "CE_normal.DAT #1",
+   "keys": {},
+   "ticks": 60,
+   "rules": "S71 S86",
+   "watch": "bug copies wait for the reference direction"
+  },
+  {
+   "level": 51,
+   "title": "CE nor 8",
+   "source": "CE_normal.DAT #9",
+   "keys": {},
+   "ticks": 60,
+   "rules": "S71 S86",
+   "watch": "paramecium copies wait for the reference direction"
+  },
+  {
+   "level": 52,
+   "title": "PHASE TEETH",
+   "source": "PHASE.DAT #1",
+   "keys": {},
+   "ticks": 16,
+   "rules": "S1",
+   "watch": "teeth move on ticks 4, 8, 12"
+  },
+  {
+   "level": 53,
+   "title": "PHASE CLONE",
+   "source": "PHASE.DAT #2",
+   "keys": {
+    "4": [
+     "E"
+    ]
+   },
+   "ticks": 16,
+   "rules": "S4",
+   "watch": "teeth cloned on tick 4 first moves on 8"
+  },
+  {
+   "level": 54,
+   "title": "IDLE PUSH",
+   "source": "PHASE.DAT #3",
+   "keys": {
+    "0": [
+     "E"
+    ],
+    "11": [
+     "E"
+    ]
+   },
+   "ticks": 14,
+   "rules": "S8",
+   "watch": "idle Chip turns south after 8 ticks; push still works"
+  },
+  {
+   "level": 55,
+   "title": "TRAP FLAG",
+   "source": "PHASE.DAT #4",
+   "keys": {},
+   "ticks": 12,
+   "rules": "S16",
+   "watch": "trap flag set when a ball enters"
+  },
+  {
+   "level": 56,
+   "title": "BOSS BALL WE",
+   "source": "BOSS.DAT #1",
+   "keys": {
+    "0": [
+     "S"
+    ]
+   },
+   "ticks": 20,
+   "rules": "S13",
+   "watch": "boss controller layout 1"
+  },
+  {
+   "level": 57,
+   "title": "BOSS BALL NS",
+   "source": "BOSS.DAT #2",
+   "keys": {
+    "0": [
+     "S"
+    ]
+   },
+   "ticks": 20,
+   "rules": "S13",
+   "watch": "boss controller layout 2"
+  },
+  {
+   "level": 58,
+   "title": "BOSS TANK STOPPED",
+   "source": "BOSS.DAT #3",
+   "keys": {
+    "0": [
+     "S"
+    ]
+   },
+   "ticks": 20,
+   "rules": "S13",
+   "watch": "boss controller layout 3"
+  },
+  {
+   "level": 59,
+   "title": "BOSS TEETH FIRST",
+   "source": "BOSS.DAT #4",
+   "keys": {
+    "0": [
+     "S"
+    ]
+   },
+   "ticks": 20,
+   "rules": "S13",
+   "watch": "boss controller layout 4"
+  },
+  {
+   "level": 60,
+   "title": "BOSS NONE",
+   "source": "BOSS.DAT #5",
+   "keys": {
+    "0": [
+     "S"
+    ]
+   },
+   "ticks": 20,
+   "rules": "S13",
+   "watch": "boss controller layout 5"
+  },
+  {
+   "level": 61,
+   "title": "BOSS BALL WE AFTER",
+   "source": "BOSS.DAT #6",
+   "keys": {
+    "0": [
+     "S"
+    ]
+   },
+   "ticks": 20,
+   "rules": "S13",
+   "watch": "boss controller layout 6"
+  },
+  {
+   "level": 62,
+   "title": "MASS CLONE",
+   "source": "MASS.DAT #1",
+   "keys": {
+    "0": [
+     "E"
+    ],
+    "2": [
+     "W"
+    ],
+    "6": [
+     "E"
+    ],
+    "8": [
+     "W"
+    ],
+    "12": [
+     "E"
+    ],
+    "14": [
+     "W"
+    ]
+   },
+   "ticks": 20,
+   "rules": "S16",
+   "watch": "shared button fires the first wire only"
+  },
+  {
+   "level": 63,
+   "title": "CLONE FROM 125",
+   "source": "CAPS.DAT #11",
+   "keys": {
+    "0": [
+     "E"
+    ],
+    "2": [
+     "W"
+    ],
+    "4": [
+     "E"
+    ],
+    "6": [
+     "W"
+    ],
+    "8": [
+     "E"
+    ],
+    "10": [
+     "W"
+    ],
+    "12": [
+     "E"
+    ],
+    "14": [
+     "W"
+    ]
+   },
+   "ticks": 20,
+   "rules": "S15",
+   "watch": "monster list growth past 128"
+  },
+  {
+   "level": 64,
+   "title": "GHOST ONE BLOB OPEN",
+   "source": "GHOST.DAT #3",
+   "keys": {},
+   "ticks": 24,
+   "rules": "S15",
+   "watch": "stacked creatures unstack"
+  },
+  {
+   "level": 65,
+   "title": "NO CHIP",
+   "source": "GLITCH1.DAT #1",
+   "keys": {},
+   "ticks": 20,
+   "rules": "S55",
+   "watch": "no Chip on the map: Chip appears at (0,0)"
+  },
+  {
+   "level": 66,
+   "title": "NO CHIP TEETH",
+   "source": "GLITCH1.DAT #2",
+   "keys": {},
+   "ticks": 20,
+   "rules": "S55",
+   "watch": "no Chip, teeth nearby"
+  },
+  {
+   "level": 67,
+   "title": "TANK MAKES AN EXIT",
+   "source": "MTGEXIT.DAT #1",
+   "keys": {
+    "0": [
+     "E"
+    ],
+    "9": [
+     "N"
+    ],
+    "11": [
+     "N"
+    ],
+    "13": [
+     "N"
+    ]
+   },
+   "ticks": 40,
+   "rules": "Multiple tank glitch",
+   "watch": "blue button; a double-listed tank turns a force floor into an exit; Chip walks in and wins"
+  },
+  {
+   "level": 68,
+   "title": "CM TANK ",
+   "source": "CMTANK.DAT #1",
+   "keys": {},
+   "ticks": 40,
+   "rules": "S40",
+   "watch": "tank on a clone machine"
+  },
+  {
+   "level": 69,
+   "title": "CM TANK LISTED",
+   "source": "CMTANK.DAT #2",
+   "keys": {},
+   "ticks": 40,
+   "rules": "S39 S40",
+   "watch": "listed tank on a clone machine (entry dropped at load)"
+  },
+  {
+   "level": 70,
+   "title": "DR N EDGE BURIED",
+   "source": "DRESET.DAT #1",
+   "keys": {
+    "0": [
+     "E"
+    ]
+   },
+   "ticks": 40,
+   "rules": "S35 S36",
+   "watch": "data resetting: red button wired to a buried north clone block at the edge"
+  },
+  {
+   "level": 71,
+   "title": "DR N EDGE BURIED BOSS",
+   "source": "DRESET.DAT #2",
+   "keys": {
+    "0": [
+     "E"
+    ]
+   },
+   "ticks": 40,
+   "rules": "S35 S36",
+   "watch": "same with a boss ball in the list"
+  },
+  {
+   "level": 72,
+   "title": "DR3 WALL/N Y0",
+   "source": "DRESET3.DAT #1",
+   "keys": {
+    "0": [
+     "E"
+    ]
+   },
+   "ticks": 40,
+   "rules": "S35 S36",
+   "watch": "wall over a buried north clone block at y 0"
+  },
+  {
+   "level": 73,
+   "title": "DR3 WALL/N Y31",
+   "source": "DRESET3.DAT #2",
+   "keys": {
+    "0": [
+     "E"
+    ]
+   },
+   "ticks": 40,
+   "rules": "S35 S36",
+   "watch": "wall over a buried north clone block at y 31"
+  },
+  {
+   "level": 74,
+   "title": "CONVERGENCE 1",
+   "source": "CONVERGE.DAT #1",
+   "keys": {
+    "0": [
+     "W"
+    ]
+   },
+   "ticks": 30,
+   "rules": "S52",
+   "watch": "convergence layout 1 (Chip moves W)"
+  },
+  {
+   "level": 75,
+   "title": "CONVERGENCE 2",
+   "source": "CONVERGE.DAT #2",
+   "keys": {
+    "0": [
+     "N"
+    ]
+   },
+   "ticks": 30,
+   "rules": "S52",
+   "watch": "convergence layout 2 (Chip moves N)"
+  },
+  {
+   "level": 76,
+   "title": "NO CHIP BOMB QUEUE",
+   "source": "NOCHIPBOMB.DAT #1",
+   "keys": {},
+   "ticks": 30,
+   "rules": "S55",
+   "watch": "no Chip, bomb queue"
+  },
+  {
+   "level": 77,
+   "title": "NO CHIP BOMB BOTTOM",
+   "source": "NOCHIPBOMB.DAT #2",
+   "keys": {},
+   "ticks": 30,
+   "rules": "S55",
+   "watch": "no Chip, bomb bottom"
+  },
+  {
+   "level": 78,
+   "title": "NO CHIP BOMB SPREAD",
+   "source": "NOCHIPBOMB.DAT #3",
+   "keys": {},
+   "ticks": 30,
+   "rules": "S55",
+   "watch": "no Chip, bomb spread"
+  },
+  {
+   "level": 79,
+   "title": "T03 BUG",
+   "source": "TIMING.DAT #3",
+   "keys": {},
+   "ticks": 40,
+   "rules": "S-timing (movement table)",
+   "watch": "creature timing level 3"
+  },
+  {
+   "level": 80,
+   "title": "T04 FIREBALL",
+   "source": "TIMING.DAT #4",
+   "keys": {},
+   "ticks": 40,
+   "rules": "S-timing (movement table)",
+   "watch": "creature timing level 4"
+  },
+  {
+   "level": 81,
+   "title": "T05 BALL",
+   "source": "TIMING.DAT #5",
+   "keys": {},
+   "ticks": 40,
+   "rules": "S-timing (movement table)",
+   "watch": "creature timing level 5"
+  },
+  {
+   "level": 82,
+   "title": "T06 TANK",
+   "source": "TIMING.DAT #6",
+   "keys": {},
+   "ticks": 40,
+   "rules": "S-timing (movement table)",
+   "watch": "creature timing level 6"
+  },
+  {
+   "level": 83,
+   "title": "T07 GLIDER",
+   "source": "TIMING.DAT #7",
+   "keys": {},
+   "ticks": 40,
+   "rules": "S-timing (movement table)",
+   "watch": "creature timing level 7"
+  },
+  {
+   "level": 84,
+   "title": "T08 TEETH",
+   "source": "TIMING.DAT #8",
+   "keys": {},
+   "ticks": 40,
+   "rules": "S-timing (movement table)",
+   "watch": "creature timing level 8"
+  },
+  {
+   "level": 85,
+   "title": "COLL HEAD-ON NORTH FIRST",
+   "source": "new #1",
+   "keys": {},
+   "ticks": 12,
+   "rules": "S57",
+   "watch": "balls head-on, northern one listed first"
+  },
+  {
+   "level": 86,
+   "title": "COLL HEAD-ON SOUTH FIRST",
+   "source": "new #2",
+   "keys": {},
+   "ticks": 12,
+   "rules": "S57",
+   "watch": "balls head-on, southern one listed first"
+  },
+  {
+   "level": 87,
+   "title": "COLL CHIP VS BALL",
+   "source": "new #3",
+   "keys": {
+    "0": [
+     "N"
+    ]
+   },
+   "ticks": 12,
+   "rules": "S58",
+   "watch": "Chip and a ball aim at the same square"
+  },
+  {
+   "level": 88,
+   "title": "COLL BLOCK INTO CREATURE",
+   "source": "new #4",
+   "keys": {
+    "0": [
+     "E"
+    ]
+   },
+   "ticks": 12,
+   "rules": "S59",
+   "watch": "block cannot be pushed into a creature"
+  },
+  {
+   "level": 89,
+   "title": "SLIDE ice True",
+   "source": "INSANE.DAT #1",
+   "keys": {
+    "0": [
+     "E"
+    ]
+   },
+   "ticks": 40,
+   "rules": "S87",
+   "watch": "data reset of the sliding flag stops Chip on ice"
+  },
+  {
+   "level": 90,
+   "title": "SLIDE ff True",
+   "source": "INSANE.DAT #3",
+   "keys": {
+    "0": [
+     "E"
+    ]
+   },
+   "ticks": 40,
+   "rules": "S87",
+   "watch": "data reset of the sliding flag stops Chip on a force floor, no further push"
+  },
+  {
+   "level": 91,
+   "title": "SLIDE ICE KEYS",
+   "source": "INSANE.DAT #5",
+   "keys": {
+    "0": [
+     "E"
+    ],
+    "9": [
+     "E"
+    ],
+    "12": [
+     "N"
+    ],
+    "14": [
+     "S"
+    ]
+   },
+   "ticks": 30,
+   "rules": "S87",
+   "watch": "stopped on ice by a data reset, then a key slides him on"
+  },
+  {
+   "level": 92,
+   "title": "V49 4 {'time': 49}",
+   "source": "INSANE.DAT #21",
+   "keys": {
+    "0": [
+     "W"
+    ]
+   },
+   "ticks": 80,
+   "rules": "S89",
+   "watch": "data value 49 acts as a clone machine: block at (4,31), value kept"
+  },
+  {
+   "level": 93,
+   "title": "REPEAT 8",
+   "source": "INSANE.DAT #24",
+   "keys": {
+    "0": [
+     "E"
+    ],
+    "20": [
+     "W"
+    ]
+   },
+   "ticks": 40,
+   "rules": "S88",
+   "watch": "data reset of Chip's x warps him to x 0"
+  },
+  {
+   "level": 94,
+   "title": "REPEAT 10",
+   "source": "INSANE.DAT #26",
+   "keys": {
+    "0": [
+     "E"
+    ],
+    "20": [
+     "W"
+    ]
+   },
+   "ticks": 40,
+   "rules": "S88",
+   "watch": "data reset of Chip's y warps him to y 0"
+  },
+  {
+   "level": 95,
+   "title": "AUT2 water 7 True",
+   "source": "INSANE2.DAT #5",
+   "keys": {
+    "0": [
+     "E"
+    ],
+    "2": [
+     "E"
+    ],
+    "7": [
+     "E"
+    ],
+    "9": [
+     "E"
+    ],
+    "11": [
+     "E"
+    ]
+   },
+   "ticks": 20,
+   "rules": "S90",
+   "watch": "death-cause reset on the next tick does not save Chip (water)"
+  },
+  {
+   "level": 96,
+   "title": "AUT3",
+   "source": "INSANE3.DAT #3",
+   "keys": {
+    "0": [
+     "E"
+    ]
+   },
+   "ticks": 20,
+   "rules": "S90",
+   "watch": "death-cause reset by a sliding ball in the same tick does not save Chip"
+  },
+  {
+   "level": 97,
+   "title": "DSET2 tankE 0",
+   "source": "INSANE2.DAT #19",
+   "keys": {
+    "0": [
+     "E"
+    ],
+    "6": [
+     "W"
+    ]
+   },
+   "ticks": 30,
+   "rules": "S91",
+   "watch": "creature code in a data value gives no list entry"
+  },
+  {
+   "level": 98,
+   "title": "DSET2 tankE 79",
+   "source": "INSANE2.DAT #20",
+   "keys": {
+    "0": [
+     "E"
+    ],
+    "6": [
+     "W"
+    ]
+   },
+   "ticks": 30,
+   "rules": "S91",
+   "watch": "tank E listed at (4,32) stays inert"
+  },
+  {
+   "level": 99,
+   "title": "DSET2 teethN 80",
+   "source": "INSANE2.DAT #24",
+   "keys": {
+    "0": [
+     "E"
+    ],
+    "6": [
+     "W"
+    ]
+   },
+   "ticks": 30,
+   "rules": "S91 S37",
+   "watch": "teeth listed at (4,32) enters the map and zeroes the time limit"
+  },
+  {
+   "level": 100,
+   "title": "INS4",
+   "source": "INSANE4.DAT #1",
+   "keys": {
+    "0": [
+     "E"
+    ],
+    "2": [
+     "W"
+    ]
+   },
+   "ticks": 60,
+   "rules": "S92",
+   "watch": "time limit reset to 0: the 5 s countdown still runs out at tick 50"
+  },
+  {
+   "level": 101,
+   "title": "INS4",
+   "source": "INSANE4.DAT #2",
+   "keys": {
+    "0": [
+     "W"
+    ],
+    "10": [
+     "E"
+    ],
+    "12": [
+     "E"
+    ]
+   },
+   "ticks": 20,
+   "rules": "S92",
+   "watch": "chips required reset to 0: the socket still needs 5 chips"
+  },
+  {
+   "level": 102,
+   "title": "HELD N 14 True",
+   "source": "DATA17.DAT #15",
+   "keys": {
+    "6": [
+     "N"
+    ],
+    "7": [
+     "N"
+    ]
+   },
+   "ticks": 16,
+   "rules": "S96",
+   "watch": "held-key flag reset: the remembered move is cancelled"
+  },
+  {
+   "level": 103,
+   "title": "HELD E 18 True",
+   "source": "DATA17.DAT #3",
+   "keys": {
+    "6": [
+     "E"
+    ],
+    "7": [
+     "E"
+    ]
+   },
+   "ticks": 16,
+   "rules": "S96",
+   "watch": "held-key x direction reset to 0: the remembered move does nothing"
+  },
+  {
+   "level": 104,
+   "title": "HELD N 20 True",
+   "source": "DATA17.DAT #11",
+   "keys": {
+    "6": [
+     "N"
+    ],
+    "7": [
+     "N"
+    ]
+   },
+   "ticks": 16,
+   "rules": "S96",
+   "watch": "held-key y direction becomes -256: the remembered move does nothing"
+  },
+  {
+   "level": 105,
+   "title": "SL ice E 24 True",
+   "source": "DATA17.DAT #17",
+   "keys": {
+    "0": [
+     "E"
+    ],
+    "12": [
+     "E"
+    ],
+    "16": [
+     "W"
+    ],
+    "20": [
+     "N"
+    ],
+    "24": [
+     "S"
+    ]
+   },
+   "ticks": 40,
+   "rules": "S97",
+   "watch": "slide direction reset on ice: Chip frozen for good, keys ignored"
+  },
+  {
+   "level": 106,
+   "title": "SL ice W 25 True",
+   "source": "DATA17.DAT #21",
+   "keys": {
+    "0": [
+     "W"
+    ],
+    "12": [
+     "E"
+    ],
+    "16": [
+     "W"
+    ],
+    "20": [
+     "N"
+    ]
+   },
+   "ticks": 40,
+   "rules": "S97",
+   "watch": "slide direction becomes +255 on ice: Chip frozen for good"
+  },
+  {
+   "level": 107,
+   "title": "SL ff W 24 True",
+   "source": "DATA17.DAT #31",
+   "keys": {
+    "0": [
+     "W"
+    ]
+   },
+   "ticks": 30,
+   "rules": "S97",
+   "watch": "slide direction reset on a force floor: no effect"
+  },
+  {
+   "level": 108,
+   "title": "DRS 48",
+   "source": "DRSWEEP0.DAT #73",
+   "keys": {},
+   "ticks": 30,
+   "rules": "S98",
+   "watch": "north ball buried at (4,0): data reset, the ball joins the list and rolls on"
+  },
+  {
+   "level": 109,
+   "title": "DRS 5C",
+   "source": "DRSWEEP0.DAT #93",
+   "keys": {},
+   "ticks": 30,
+   "rules": "S98",
+   "watch": "north blob buried at (4,0): data reset, the blob joins the list"
+  },
+  {
+   "level": 110,
+   "title": "DRS 49",
+   "source": "DRSWEEP0.DAT #74",
+   "keys": {},
+   "ticks": 30,
+   "rules": "S98",
+   "watch": "west ball buried at (4,0): nothing"
+  },
+  {
+   "level": 111,
+   "title": "DRS 0A",
+   "source": "DRSWEEP0.DAT #11",
+   "keys": {},
+   "ticks": 30,
+   "rules": "S98",
+   "watch": "plain block buried at (4,0): nothing"
+  },
+  {
+   "level": 112,
+   "title": "TRAPPED BLOB DRAWS",
+   "source": "TRAPBLOB.DAT #1",
+   "keys": {},
+   "ticks": 60,
+   "rules": "S12d",
+   "watch": "blob held in an unwired trap, listed first, keeps drawing: the free blob first moves W to (12,13)"
+  },
+  {
+   "level": 113,
+   "title": "TRAPPED WALKER NO DRAWS",
+   "source": "TRAPBLOB.DAT #2",
+   "keys": {},
+   "ticks": 60,
+   "rules": "S12d",
+   "watch": "control: walker held in the same trap makes no draws: the free blob first moves E to (14,13)"
+  },
+  {
+   "level": 114,
+   "title": "XC 37",
+   "source": "CROSSCHK.DAT #38",
+   "keys": {
+    "1": [
+     "E"
+    ],
+    "2": [
+     "E"
+    ],
+    "3": [
+     "E"
+    ],
+    "4": [
+     "E"
+    ],
+    "5": [
+     "E"
+    ],
+    "6": [
+     "E"
+    ],
+    "7": [
+     "E"
+    ],
+    "8": [
+     "E"
+    ],
+    "9": [
+     "E"
+    ],
+    "10": [
+     "E"
+    ],
+    "11": [
+     "E"
+    ],
+    "12": [
+     "E"
+    ],
+    "13": [
+     "E"
+    ],
+    "14": [
+     "E"
+    ],
+    "15": [
+     "E"
+    ],
+    "16": [
+     "E"
+    ],
+    "17": [
+     "E"
+    ],
+    "18": [
+     "E"
+    ],
+    "19": [
+     "E"
+    ],
+    "20": [
+     "E"
+    ],
+    "21": [
+     "E"
+    ],
+    "22": [
+     "E"
+    ],
+    "23": [
+     "E"
+    ],
+    "24": [
+     "E"
+    ],
+    "25": [
+     "E"
+    ]
+   },
+   "ticks": 30,
+   "rules": "S24 S18",
+   "watch": "cross-check, boosting route: Chip boosts off ice, pushes the block onto ice, follows; block pushed straight through the ice corner to (13,10)"
+  },
+  {
+   "level": 115,
+   "title": "XC 49",
+   "source": "CROSSCHK.DAT #50",
+   "keys": {
+    "1": [
+     "E"
+    ],
+    "2": [
+     "E"
+    ],
+    "3": [
+     "E"
+    ],
+    "4": [
+     "E"
+    ],
+    "5": [
+     "E"
+    ],
+    "6": [
+     "E"
+    ],
+    "7": [
+     "E"
+    ],
+    "8": [
+     "E"
+    ],
+    "9": [
+     "E"
+    ],
+    "10": [
+     "E"
+    ],
+    "11": [
+     "E"
+    ],
+    "12": [
+     "E"
+    ],
+    "13": [
+     "E"
+    ],
+    "14": [
+     "E"
+    ],
+    "15": [
+     "E"
+    ],
+    "16": [
+     "E"
+    ],
+    "17": [
+     "E"
+    ],
+    "18": [
+     "E"
+    ],
+    "19": [
+     "E"
+    ],
+    "20": [
+     "E"
+    ],
+    "21": [
+     "E"
+    ],
+    "22": [
+     "E"
+    ],
+    "23": [
+     "E"
+    ],
+    "24": [
+     "E"
+    ],
+    "25": [
+     "E"
+    ]
+   },
+   "ticks": 30,
+   "rules": "S24 S18",
+   "watch": "cross-check sideways over force floors: block pushed straight on past the S-pointing force floor"
+  },
+  {
+   "level": 116,
+   "title": "XC 61",
+   "source": "CROSSCHK.DAT #62",
+   "keys": {
+    "1": [
+     "E"
+    ],
+    "2": [
+     "E"
+    ],
+    "3": [
+     "E"
+    ],
+    "4": [
+     "E"
+    ],
+    "5": [
+     "E"
+    ],
+    "6": [
+     "E"
+    ],
+    "7": [
+     "E"
+    ],
+    "8": [
+     "E"
+    ],
+    "9": [
+     "E"
+    ],
+    "10": [
+     "E"
+    ],
+    "11": [
+     "E"
+    ],
+    "12": [
+     "E"
+    ],
+    "13": [
+     "E"
+    ],
+    "14": [
+     "E"
+    ],
+    "15": [
+     "E"
+    ],
+    "16": [
+     "E"
+    ],
+    "17": [
+     "E"
+    ],
+    "18": [
+     "E"
+    ],
+    "19": [
+     "E"
+    ],
+    "20": [
+     "E"
+    ],
+    "21": [
+     "E"
+    ],
+    "22": [
+     "E"
+    ],
+    "23": [
+     "E"
+    ],
+    "24": [
+     "E"
+    ],
+    "25": [
+     "E"
+    ]
+   },
+   "ticks": 30,
+   "rules": "S24 S18",
+   "watch": "cross-check backwards over force floors: block forced back onto Chip at tick 5, Chip dies"
+  },
+  {
+   "level": 117,
+   "title": "XC 1",
+   "source": "CROSSCHK.DAT #2",
+   "keys": {
+    "1": [
+     "E"
+    ],
+    "2": [
+     "E"
+    ],
+    "3": [
+     "E"
+    ],
+    "4": [
+     "E"
+    ],
+    "5": [
+     "E"
+    ],
+    "6": [
+     "E"
+    ],
+    "7": [
+     "E"
+    ],
+    "8": [
+     "E"
+    ],
+    "9": [
+     "E"
+    ],
+    "10": [
+     "E"
+    ],
+    "11": [
+     "E"
+    ],
+    "12": [
+     "E"
+    ],
+    "13": [
+     "E"
+    ],
+    "14": [
+     "E"
+    ],
+    "15": [
+     "E"
+    ],
+    "16": [
+     "E"
+    ],
+    "17": [
+     "E"
+    ],
+    "18": [
+     "E"
+    ],
+    "19": [
+     "E"
+    ],
+    "20": [
+     "E"
+    ],
+    "21": [
+     "E"
+    ],
+    "22": [
+     "E"
+    ],
+    "23": [
+     "E"
+    ],
+    "24": [
+     "E"
+    ],
+    "25": [
+     "E"
+    ]
+   },
+   "ticks": 30,
+   "rules": "S24",
+   "watch": "control: walking up instead of boosting, the block turns south at the ice corner"
+  },
+  {
+   "level": 118,
+   "title": "MP 60",
+   "source": "MOUSEPATH.DAT #61",
+   "keys": {
+    "1": [
+     "C3,2"
+    ]
+   },
+   "ticks": 20,
+   "rules": "C22 C20",
+   "watch": "click (3,2) in an open room: E,S,E,S,E on ticks 2,4,6,8,10"
+  },
+  {
+   "level": 119,
+   "title": "MP 81",
+   "source": "MOUSEPATH.DAT #82",
+   "keys": {
+    "1": [
+     "C3,2"
+    ]
+   },
+   "ticks": 20,
+   "rules": "C22",
+   "watch": "click (3,2), wall E of Chip: first step S instead"
+  },
+  {
+   "level": 120,
+   "title": "MP 86",
+   "source": "MOUSEPATH.DAT #87",
+   "keys": {
+    "1": [
+     "C3,0"
+    ]
+   },
+   "ticks": 20,
+   "rules": "C22",
+   "watch": "click (3,0), wall E of Chip: no step at all"
+  },
+  {
+   "level": 121,
+   "title": "MP 90",
+   "source": "MOUSEPATH.DAT #91",
+   "keys": {
+    "1": [
+     "C3,0"
+    ]
+   },
+   "ticks": 20,
+   "rules": "C22",
+   "watch": "click (3,0), water E of Chip: walks in and drowns"
+  },
+  {
+   "level": 122,
+   "title": "M2 0",
+   "source": "MOUSE2.DAT #1",
+   "keys": {
+    "1": [
+     "C3,0"
+    ]
+   },
+   "ticks": 40,
+   "rules": "C22",
+   "watch": "click blocked by a toggle wall that opens at ticks 12-15 and 32-35: the click is forgotten, Chip never moves"
+  },
+  {
+   "level": 123,
+   "title": "M2 2",
+   "source": "MOUSE2.DAT #3",
+   "keys": {
+    "1": [
+     "C3,0"
+    ]
+   },
+   "ticks": 20,
+   "rules": "C22",
+   "watch": "click (3,0) with a block E: pushes it along"
+  },
+  {
+   "level": 124,
+   "title": "M2 5",
+   "source": "MOUSE2.DAT #6",
+   "keys": {
+    "1": [
+     "C3,0"
+    ]
+   },
+   "ticks": 20,
+   "rules": "C22",
+   "watch": "click (3,0) with a stuck tank E: walks into it and dies"
+  },
+  {
+   "level": 125,
+   "title": "M2 1",
+   "source": "MOUSESLIDE.DAT #2",
+   "keys": {
+    "1": [
+     "C2,0"
+    ]
+   },
+   "ticks": 20,
+   "rules": "C22",
+   "watch": "click on an ice square: Chip touches it mid-slide, slides on to (3,0) and stays"
+  },
+  {
+   "level": 126,
+   "title": "M2 3",
+   "source": "MOUSESLIDE.DAT #4",
+   "keys": {
+    "1": [
+     "C4,2"
+    ]
+   },
+   "ticks": 20,
+   "rules": "C22",
+   "watch": "click (4,2) across ice: slide ends at (3,0), then on to the target"
+  },
+  {
+   "level": 127,
+   "title": "M2 0",
+   "source": "MOUSEGAP.DAT #1",
+   "keys": {
+    "1": [
+     "C5,0"
+    ]
+   },
+   "ticks": 20,
+   "rules": "C22",
+   "watch": "click (5,0), force S at (1,0): on, pushed and off in tick 2, tick 4 skipped, then steps on 6,8,10,12"
+  },
+  {
+   "level": 128,
+   "title": "EXITBURY 21",
+   "source": "EXITBURY.DAT #1",
+   "keys": {
+    "10": [
+     "N"
+    ],
+    "12": [
+     "N"
+    ],
+    "14": [
+     "N"
+    ],
+    "16": [
+     "N"
+    ],
+    "18": [
+     "N"
+    ],
+    "20": [
+     "N"
+    ],
+    "22": [
+     "N"
+    ],
+    "24": [
+     "N"
+    ],
+    "26": [
+     "N"
+    ],
+    "28": [
+     "N"
+    ],
+    "30": [
+     "E"
+    ],
+    "32": [
+     "E"
+    ],
+    "34": [
+     "E"
+    ],
+    "36": [
+     "E"
+    ],
+    "38": [
+     "E"
+    ],
+    "40": [
+     "E"
+    ],
+    "42": [
+     "E"
+    ],
+    "44": [
+     "E"
+    ]
+   },
+   "ticks": 50,
+   "rules": "S100",
+   "watch": "x reset with Chip at x=21 buries 0x15 (exit) under the socket at (8,0); Chip walks into the socket and wins"
+  },
+  {
+   "level": 129,
+   "title": "EXITBURY 20",
+   "source": "EXITBURY.DAT #2",
+   "keys": {
+    "10": [
+     "N"
+    ],
+    "12": [
+     "N"
+    ],
+    "14": [
+     "N"
+    ],
+    "16": [
+     "N"
+    ],
+    "18": [
+     "N"
+    ],
+    "20": [
+     "N"
+    ],
+    "22": [
+     "N"
+    ],
+    "24": [
+     "N"
+    ],
+    "26": [
+     "N"
+    ],
+    "28": [
+     "N"
+    ],
+    "30": [
+     "E"
+    ],
+    "32": [
+     "E"
+    ],
+    "34": [
+     "E"
+    ],
+    "36": [
+     "E"
+    ],
+    "38": [
+     "E"
+    ],
+    "40": [
+     "E"
+    ],
+    "42": [
+     "E"
+    ],
+    "44": [
+     "E"
+    ]
+   },
+   "ticks": 50,
+   "rules": "S100",
+   "watch": "control: Chip at x=20 buries 0x14 (force W) under the socket; walking in does not win"
+  },
+  {
+   "level": 130,
+   "title": "SUMMON FIRE BOOTS",
+   "source": "SUMMON.DAT #1",
+   "keys": {
+    "8": [
+     "E"
+    ],
+    "12": [
+     "E"
+    ],
+    "16": [
+     "W"
+    ],
+    "20": [
+     "E"
+    ],
+    "22": [
+     "E"
+    ],
+    "24": [
+     "E"
+    ],
+    "26": [
+     "E"
+    ]
+   },
+   "ticks": 40,
+   "rules": "S100",
+   "watch": "time limit 105 (0x69) buried under the socket: Chip summons fire boots, picks them up and crosses fire to the exit"
+  },
+  {
+   "level": 131,
+   "title": "SUMMON FLIPPERS",
+   "source": "SUMMON.DAT #2",
+   "keys": {
+    "8": [
+     "E"
+    ],
+    "12": [
+     "E"
+    ],
+    "16": [
+     "W"
+    ],
+    "20": [
+     "E"
+    ],
+    "22": [
+     "E"
+    ],
+    "24": [
+     "E"
+    ],
+    "26": [
+     "E"
+    ]
+   },
+   "ticks": 40,
+   "rules": "S100",
+   "watch": "time limit 104 (0x68) buried under the socket: Chip summons flippers, picks them up and crosses water to the exit"
+  }
+ ],
+ "padding": "levels 132-149 are empty pads (no Chip)",
+ "key_semantics": "keys[n] are delivered after n ticks have run (n = 0: right after start), each handled before the next tick; \"Cdx,dy\" is a mouse click on the square at offset (dx,dy) from Chip at that moment",
+ "seed": "random generator state 0 at level start"
+}

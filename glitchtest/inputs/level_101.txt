@@ -1,0 +1,12 @@
+# MSPP glitch tester input: INS4
+# rules: S92
+# watch: chips required reset to 0: the socket still needs 5 chips
+set GLITCHTEST.DAT
+level 101
+ticks 20
+seed 0
+start shift
+# "n: keys" = after n ticks have run, press these keys (N S W E, or Cdx,dy = click the square at that offset from Chip)
+0: W
+10: E
+12: E

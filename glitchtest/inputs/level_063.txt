@@ -1,0 +1,17 @@
+# MSPP glitch tester input: CLONE FROM 125
+# rules: S15
+# watch: monster list growth past 128
+set GLITCHTEST.DAT
+level 63
+ticks 20
+seed 0
+start shift
+# "n: keys" = after n ticks have run, press these keys (N S W E, or Cdx,dy = click the square at that offset from Chip)
+0: E
+2: W
+4: E
+6: W
+8: E
+10: W
+12: E
+14: W

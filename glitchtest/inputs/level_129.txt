@@ -1,0 +1,27 @@
+# MSPP glitch tester input: EXITBURY 20
+# rules: S100
+# watch: control: Chip at x=20 buries 0x14 (force W) under the socket; walking in does not win
+set GLITCHTEST.DAT
+level 129
+ticks 50
+seed 0
+start shift
+# "n: keys" = after n ticks have run, press these keys (N S W E, or Cdx,dy = click the square at that offset from Chip)
+10: N
+12: N
+14: N
+16: N
+18: N
+20: N
+22: N
+24: N
+26: N
+28: N
+30: E
+32: E
+34: E
+36: E
+38: E
+40: E
+42: E
+44: E

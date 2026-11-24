@@ -1,0 +1,11 @@
+# MSPP glitch tester input: IDLE PUSH
+# rules: S8
+# watch: idle Chip turns south after 8 ticks; push still works
+set GLITCHTEST.DAT
+level 54
+ticks 14
+seed 0
+start shift
+# "n: keys" = after n ticks have run, press these keys (N S W E, or Cdx,dy = click the square at that offset from Chip)
+0: E
+11: E

@@ -1,0 +1,9 @@
+# MSPP glitch tester input: CM TANK 
+# rules: S40
+# watch: tank on a clone machine
+set GLITCHTEST.DAT
+level 68
+ticks 40
+seed 0
+start shift
+# "n: keys" = after n ticks have run, press these keys (N S W E, or Cdx,dy = click the square at that offset from Chip)

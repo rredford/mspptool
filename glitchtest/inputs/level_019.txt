@@ -1,0 +1,14 @@
+# MSPP glitch tester input: BUR CHIP ON CM
+# rules: S77
+# watch: Chip leaves a clone machine: it surfaces, does nothing
+set GLITCHTEST.DAT
+level 19
+ticks 24
+seed 0
+start shift
+# "n: keys" = after n ticks have run, press these keys (N S W E, or Cdx,dy = click the square at that offset from Chip)
+0: E
+2: E
+6: W
+8: W
+10: W

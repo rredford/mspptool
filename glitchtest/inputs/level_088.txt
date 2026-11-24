@@ -1,0 +1,10 @@
+# MSPP glitch tester input: COLL BLOCK INTO CREATURE
+# rules: S59
+# watch: block cannot be pushed into a creature
+set GLITCHTEST.DAT
+level 88
+ticks 12
+seed 0
+start shift
+# "n: keys" = after n ticks have run, press these keys (N S W E, or Cdx,dy = click the square at that offset from Chip)
+0: E

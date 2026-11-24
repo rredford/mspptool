@@ -1,0 +1,11 @@
+# MSPP glitch tester input: DSET2 tankE 0
+# rules: S91
+# watch: creature code in a data value gives no list entry
+set GLITCHTEST.DAT
+level 97
+ticks 30
+seed 0
+start shift
+# "n: keys" = after n ticks have run, press these keys (N S W E, or Cdx,dy = click the square at that offset from Chip)
+0: E
+6: W

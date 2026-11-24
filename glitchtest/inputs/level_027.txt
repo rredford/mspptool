@@ -1,0 +1,9 @@
+# MSPP glitch tester input: IT 24 ball
+# rules: S84
+# watch: key over red button entered by a ball
+set GLITCHTEST.DAT
+level 27
+ticks 20
+seed 0
+start shift
+# "n: keys" = after n ticks have run, press these keys (N S W E, or Cdx,dy = click the square at that offset from Chip)

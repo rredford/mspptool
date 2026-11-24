@@ -1,0 +1,9 @@
+# MSPP glitch tester input: PHASE TEETH
+# rules: S1
+# watch: teeth move on ticks 4, 8, 12
+set GLITCHTEST.DAT
+level 52
+ticks 16
+seed 0
+start shift
+# "n: keys" = after n ticks have run, press these keys (N S W E, or Cdx,dy = click the square at that offset from Chip)

@@ -1,0 +1,10 @@
+# MSPP glitch tester input: CONVERGENCE 2
+# rules: S52
+# watch: convergence layout 2 (Chip moves N)
+set GLITCHTEST.DAT
+level 75
+ticks 30
+seed 0
+start shift
+# "n: keys" = after n ticks have run, press these keys (N S W E, or Cdx,dy = click the square at that offset from Chip)
+0: N

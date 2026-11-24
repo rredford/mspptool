@@ -1,0 +1,9 @@
+# MSPP glitch tester input: BUR2 ICE
+# rules: S76
+# watch: ball sliding on ice bounces off a buried clone machine
+set GLITCHTEST.DAT
+level 21
+ticks 30
+seed 0
+start shift
+# "n: keys" = after n ticks have run, press these keys (N S W E, or Cdx,dy = click the square at that offset from Chip)

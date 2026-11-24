@@ -1,0 +1,10 @@
+# MSPP glitch tester input: IT 23 chip
+# rules: S84
+# watch: key over green button entered by Chip
+set GLITCHTEST.DAT
+level 22
+ticks 20
+seed 0
+start shift
+# "n: keys" = after n ticks have run, press these keys (N S W E, or Cdx,dy = click the square at that offset from Chip)
+0: E

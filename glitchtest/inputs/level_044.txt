@@ -1,0 +1,11 @@
+# MSPP glitch tester input: FORCE KEY
+# rules: S67
+# watch: key on a force floor acts at once
+set GLITCHTEST.DAT
+level 44
+ticks 16
+seed 0
+start shift
+# "n: keys" = after n ticks have run, press these keys (N S W E, or Cdx,dy = click the square at that offset from Chip)
+0: N
+3: W

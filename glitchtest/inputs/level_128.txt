@@ -1,0 +1,27 @@
+# MSPP glitch tester input: EXITBURY 21
+# rules: S100
+# watch: x reset with Chip at x=21 buries 0x15 (exit) under the socket at (8,0); Chip walks into the socket and wins
+set GLITCHTEST.DAT
+level 128
+ticks 50
+seed 0
+start shift
+# "n: keys" = after n ticks have run, press these keys (N S W E, or Cdx,dy = click the square at that offset from Chip)
+10: N
+12: N
+14: N
+16: N
+18: N
+20: N
+22: N
+24: N
+26: N
+28: N
+30: E
+32: E
+34: E
+36: E
+38: E
+40: E
+42: E
+44: E
